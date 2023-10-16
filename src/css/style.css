@@ -3,3 +3,19 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background: url(../images/fundo.png) repeat-x;
+}
+
+header {
+    width: 750px;
+    margin: 0 auto;
+    
+}
+
+header nav {
+    height: 150px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
