@@ -12,10 +12,18 @@ body {
     background: url(../images/fundo.png) repeat-x;
 }
 
+/* end reset */
+
+/* start header */
+
 header {
     width: 750px;
     margin: 0 auto;
     
+}
+
+header h1 {
+    padding: 10px 0;
 }
 
 header nav {
