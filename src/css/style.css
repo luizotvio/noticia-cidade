@@ -39,11 +39,10 @@ header nav {
 header nav ul {
     list-style: none;
     text-decoration: none;
-    background-color: red;
+    background-color: rgb(129, 30, 30);
     margin-top: 10px;
     width: 82%;
     height: 50px;
-    padding: 0 0.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,4 +51,15 @@ header nav ul {
 header nav ul a {
     text-decoration: none;
     color: #fff;
+    padding: 0 0.5rem;
+    background: url(../images/divisor.png) no-repeat left center;
+}
+
+header ul .primeiro a {
+    background: none;
+}
+
+header nav ul a:hover {
+    color: #69001d;
+    
 }
