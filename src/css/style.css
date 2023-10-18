@@ -22,8 +22,11 @@ header {
     
 }
 
-header h1 {
+header .logo {
+    width: 152px;
+    height: 66px;
     padding: 10px 0;
+    background: url(../images/logo.png) no-repeat center;
 }
 
 header nav {
